@@ -1,4 +1,6 @@
-export function calculateTax(){
-    return 1
-    
+export function calculateTax(earnings){
+    if (earnings <= 12000) {
+        return 0;
+    }
+
 }
