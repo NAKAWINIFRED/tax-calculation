@@ -3,7 +3,10 @@ export function calculateTax(earnings){
         return 0;
     }
     else if (earnings <= 36000) {
-        return (earnings  ) * 0.2;
+        return earnings * 0.2;
+    }
+    else if (earnings > 36000) {
+        return earnings * 0.4;
     }
 
 }
